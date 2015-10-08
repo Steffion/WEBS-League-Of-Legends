@@ -92,3 +92,6 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+#Espresso
+*.esproj
