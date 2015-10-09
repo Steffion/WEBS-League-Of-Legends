@@ -101,4 +101,21 @@ a {
 
 article {
 	color: white;
+@media screen and (max-width: 980px) {
+	nav > ul > li {
+		float: none;
+		width: 90%;
+		font-size: 52px;
+		margin-bottom: 10px;
+	}
+	
+	li > ul {
+		position: relative;
+		left: 8px;
+		z-index: 1;
+	}
+	
+	header {
+		font-size: 52px;
+	}
 }
