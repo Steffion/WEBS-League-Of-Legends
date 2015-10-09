@@ -100,6 +100,7 @@ a {
 }
 
 article {
+	margin-top: 100px;
 	color: white;
 	padding: 20px;
 }
@@ -107,7 +108,7 @@ article {
 @media screen and (max-width: 980px) {
 	nav > ul > li {
 		float: none;
-		width: 90%;
+		width: 93%;
 		font-size: 52px;
 		margin-bottom: 10px;
 	}
