@@ -28,6 +28,7 @@ nav > ul > li{
 	list-style-type: none;
 	text-align: center;
 	width: 10%;
+	position: relative;
 	margin-right: 1%;
 	opacity: 0.9;
 }
@@ -37,15 +38,32 @@ nav ul {
 	margin-left: -1%;
 }
 
-li > ul{
+li > ul:first-child {
+	border-radius: 5px;
+}
+
+li > ul li {
+	border-bottom: 1px solid #333;
+	
+}
+
+li > ul li:last-child {
+	border-bottom: 0;
+}
+
+li > ul {
 	display: none;
+	background-color: #6c6c6c;
+	padding: 0;
+	border-radius: 5px;
+	list-style-type: none;
+	text-align: center;
+	position: absolute;
+	margin-top: 3px;
 }
 
 li:hover > ul{
 	display: block;
-	list-style-type: none;
-	text-align: center;
-	margin-left: -35px;
 }
 
 a {
