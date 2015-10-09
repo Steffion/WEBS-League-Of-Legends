@@ -1,10 +1,34 @@
 body { 
-  background:url('BackgroundBasic.jpg');
+  background:url('backgrounds/standard.jpg');
   font-family: "Century Gothic", "Arial";
 }
 
-body#introduction {
-	background: url('BasicBackground.png');
+body#index {
+	background: url('backgrounds/index.png');
+}
+
+body#theadc {
+	background: url('backgrounds/TheADC.jpg');
+}
+
+body#thefeeder {
+	background: url('backgrounds/TheFeeder.jpg');
+}
+
+body#thejungler {
+	background: url('backgrounds/TheJungler.jpg');
+}
+
+body#thesolomid {
+	background: url('backgrounds/TheSoloMid.jpg');
+}
+
+body#thesolotop {
+	background: url('backgrounds/TheSoloTop.jpg');
+}
+
+body#thesupport {
+	background: url('backgrounds/TheSupport.jpg');
 }
 
 header {
