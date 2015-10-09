@@ -1,5 +1,5 @@
 body { 
-  background:url('backgrounds/standard.jpg');
+  background: url('backgrounds/standard.jpg') no-repeat fixed;
   font-family: "Century Gothic", "Arial";
 }
 
@@ -120,5 +120,50 @@ article {
 	
 	header {
 		font-size: 52px;
+	}
+	
+	article {
+		font-size: 400%;
+		margin-top: 10px;
+	}
+	
+	body {
+		background-color: black;
+		background-image: url('..');
+	}
+	
+	body#index {
+		background-color: black;
+		background-image: url('..');
+	}
+	
+	body#theadc {
+		background-color: black;
+		background-image: url('..');
+	}
+	
+	body#thefeeder {
+		background-color: black;
+		background-image: url('..');
+	}
+	
+	body#thejungler {
+		background-color: black;
+		background-image: url('..');
+	}
+	
+	body#thesolomid {
+		background-color: black;
+		background-image: url('..');
+	}
+	
+	body#thesolotop {
+		background-color: black;
+		background-image: url('..');
+	}
+	
+	body#thesupport {
+		background-color: black;
+		background-image: url('..');
 	}
 }
