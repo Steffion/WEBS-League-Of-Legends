@@ -108,11 +108,18 @@ article {
 
 div.ADC{
 	width: 100%;
-	border-radius: 5px;
 	background: linear-gradient(to right, black , #FFDBB8);
 	position: relative;
 	top: 450px;
 	opacity: 0.9;
+}
+
+div.Support{
+	width: 100%;
+	background: linear-gradient(to right, black , #94E9D8);
+	position: relative;
+	top: 450px;
+	opacity: 0.9;	
 }
 
 @media screen and (max-width: 980px) {
