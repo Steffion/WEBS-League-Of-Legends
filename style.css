@@ -1,6 +1,7 @@
 body { 
   background: url('backgrounds/standard.jpg') no-repeat fixed;
   font-family: "Century Gothic", "Arial";
+  margin: 0;
 }
 
 body#index {
@@ -103,6 +104,15 @@ article {
 	margin-top: 100px;
 	color: white;
 	padding: 20px;
+}
+
+div.ADC{
+	width: 100%;
+	border-radius: 5px;
+	background: linear-gradient(to right, black , #FFDBB8);
+	position: relative;
+	top: 450px;
+	opacity: 0.9;
 }
 
 @media screen and (max-width: 980px) {
