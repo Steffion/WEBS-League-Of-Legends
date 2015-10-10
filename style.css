@@ -107,6 +107,7 @@ article {
 }
 
 div.ADC{
+	font-size: 18px;
 	width: 100%;
 	background: linear-gradient(to right, black , #FFDBB8);
 	position: relative;
@@ -115,12 +116,41 @@ div.ADC{
 }
 
 div.Support{
+	font-size: 18px;
 	width: 100%;
 	background: linear-gradient(to right, black , #94E9D8);
 	position: relative;
 	top: 450px;
 	opacity: 0.9;	
 }
+
+div.Jungler{
+	font-size: 18px;
+	width: 100%;
+	background: linear-gradient(to right, #002E0F , #FFDBB8);
+	position: relative;
+	top: 450px;
+	opacity: 0.9;	
+}
+
+div.SoloTop{
+	font-size: 18px;
+	width: 100%;
+	background: linear-gradient(to right, black , #FFDBB8);
+	position: relative;
+	top: 450px;
+	opacity: 0.9;	
+}
+
+div.SoloMid{
+	font-size: 18px;
+	width: 100%;
+	background: linear-gradient(to right, #391439 , #FFDBB8);
+	position: relative;
+	top: 500px;
+	opacity: 0.9;
+}
+
 
 @media screen and (max-width: 980px) {
 	nav > ul > li {
