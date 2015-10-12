@@ -5,31 +5,31 @@ body {
 }
 
 body#index {
-	background: url('backgrounds/index.png');
+	background: url('backgrounds/index.png') no-repeat fixed;
 }
 
 body#theadc {
-	background: url('backgrounds/TheADC.jpg');
+	background: url('backgrounds/TheADC.jpg')  no-repeat fixed;
 }
 
 body#thefeeder {
-	background: url('backgrounds/TheFeeder.jpg');
+	background: url('backgrounds/TheFeeder.jpg') no-repeat fixed;
 }
 
 body#thejungler {
-	background: url('backgrounds/TheJungler.png');
+	background: url('backgrounds/TheJungler.png') no-repeat fixed;
 }
 
 body#thesolomid {
-	background: url('backgrounds/TheSoloMid.jpg');
+	background: url('backgrounds/TheSoloMid.jpg') no-repeat fixed;
 }
 
 body#thesolotop {
-	background: url('backgrounds/TheSoloTop.png');
+	background: url('backgrounds/TheSoloTop.png') no-repeat fixed;
 }
 
 body#thesupport {
-	background: url('backgrounds/TheSupport.jpg');
+	background: url('backgrounds/TheSupport.jpg') no-repeat fixed;
 }
 
 header {
