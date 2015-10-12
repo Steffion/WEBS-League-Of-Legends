@@ -33,10 +33,10 @@ body#thesupport {
 }
 
 header {
-	background: -webkit-linear-gradient(left, #373737 , #090909); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, #373737, #090909); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, #373737, #090909); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, #373737 , #090909); /* Standard syntax */
+	background: -webkit-linear-gradient(left, #373737 , #090909);
+	background: -o-linear-gradient(right, #373737, #090909);
+	background: -moz-linear-gradient(right, #373737, #090909);
+	background: linear-gradient(to right, #373737 , #090909);
 	color: white;
 	font-size: 20px;
 	text-align: center;
