@@ -5,31 +5,31 @@ body {
 }
 
 body#index {
-	background: url('backgrounds/index.png');
+	background: url('backgrounds/index.png') no-repeat fixed;
 }
 
 body#theadc {
-	background: url('backgrounds/TheADC.jpg');
+	background: url('backgrounds/TheADC.jpg')  no-repeat fixed;
 }
 
 body#thefeeder {
-	background: url('backgrounds/TheFeeder.jpg');
+	background: url('backgrounds/TheFeeder.jpg') no-repeat fixed;
 }
 
 body#thejungler {
-	background: url('backgrounds/TheJungler.png');
+	background: url('backgrounds/TheJungler.png') no-repeat fixed;
 }
 
 body#thesolomid {
-	background: url('backgrounds/TheSoloMid.jpg');
+	background: url('backgrounds/TheSoloMid.jpg') no-repeat fixed;
 }
 
 body#thesolotop {
-	background: url('backgrounds/TheSoloTop.png');
+	background: url('backgrounds/TheSoloTop.png') no-repeat fixed;
 }
 
 body#thesupport {
-	background: url('backgrounds/TheSupport.jpg');
+	background: url('backgrounds/TheSupport.jpg') no-repeat fixed;
 }
 
 header {
@@ -58,10 +58,6 @@ nav > ul > li {
 	opacity: 0.9;
 }
 
-li > ul:first-child {
-	border-radius: 5px;
-}
-
 li > ul li {
 	border-bottom: 1px solid #333;
 	
@@ -81,7 +77,6 @@ li > ul {
 	list-style-type: none;
 	text-align: center;
 	position: absolute;
-	margin-top: 4px;
 }
 
 li:hover > ul{
@@ -202,10 +197,6 @@ li.RoleFloat:hover{
 	transform: scale(1.2);
 	transition: 1s ease;
 }
-
-
-
-
 
 @media screen and (max-width: 980px) {
 	nav > ul > li {
