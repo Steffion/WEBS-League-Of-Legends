@@ -146,6 +146,64 @@ div.SoloMid{
 	opacity: 0.9;
 }
 
+div.Feeder{
+	font-size: 18px;
+	width: 100%;
+	background: linear-gradient(to right, black, #FFDBB8);
+	position: relative;
+	top: 450px;
+	opacity: 0.9;
+}
+
+#ADC{
+	background-image:url('RolesADC.jpg');
+	display: block;
+	height: 240px;
+	width: 350px;
+}
+
+#Support{
+	background-image:url('RolesSupport.jpg');
+	display: block;
+	height: 240px;
+	width: 350px;
+}
+
+#Jungler{
+	background-image:url('RolesJungler.jpg');
+	display: block;
+	height: 240px;
+	width: 350px;
+}
+
+#Top{
+	background-image:url('RolesTop.jpg');
+	display: block;
+	height: 240px;
+	width: 350px;
+}
+
+#Mid{
+	background-image:url('RolesMid.png');
+	display: block;
+	height: 240px;
+	width: 350px;
+}
+
+#Feeder{
+	background-image:url('RolesFeeder.jpg');
+	display: block;
+	height: 240px;
+	width: 1720px;
+}
+
+li.RoleFloat{
+	float:left;
+	list-style-type: none;
+}
+
+
+
 
 @media screen and (max-width: 980px) {
 	nav > ul > li {
