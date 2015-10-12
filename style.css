@@ -58,11 +58,6 @@ nav > ul > li {
 	opacity: 0.9;
 }
 
-nav ul {
-	width: 100%;
-	margin-left: -1%;
-}
-
 li > ul:first-child {
 	border-radius: 5px;
 }
@@ -78,10 +73,10 @@ li > ul li:last-child {
 
 li > ul {
 	display: none;
+	width: 100%;
 	box-shadow: 3px 3px 6px black;
 	background-color: #6c6c6c;
 	padding: 0;
-	left: 1%s;
 	border-radius: 5px;
 	list-style-type: none;
 	text-align: center;
