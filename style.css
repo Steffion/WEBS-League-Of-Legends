@@ -149,15 +149,18 @@ div.SoloMid{
 
 @media screen and (max-width: 980px) {
 	nav > ul > li {
-		float: none;
 		width: 93%;
 		font-size: 52px;
 		margin-bottom: 10px;
 	}
 	
+	nav > ul > li:hover {
+		background-color: #3a3a3a;
+	}
+	
 	li > ul {
 		position: relative;
-		left: 8px;
+		margin-top: 10px;
 		z-index: 1;
 	}
 	
