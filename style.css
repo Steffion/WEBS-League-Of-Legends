@@ -252,6 +252,7 @@ li.ChampionFloat{
 	float: left;
 	list-style-type: none;
 }
+
 @media screen and (max-width: 980px) {
 	nav > ul > li {
 		width: 93%;
