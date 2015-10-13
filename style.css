@@ -240,7 +240,7 @@ li.RoleFloat:hover{
 	width: 350px;
 }
 
-#Support{
+#SupportChampion {
 	background-image:url('ChampionsSupport.png');
 	display: block;
 	height: 250px;
