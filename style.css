@@ -198,6 +198,60 @@ li.RoleFloat:hover{
 	transition: 1s ease;
 }
 
+#Assasin{
+	background-image:url('ChampionsAssasin.png');
+	display: block;
+	height: 250px;
+	width: 350px;
+}
+
+#Tank{
+	background-image:url('ChampionsTank.png');
+	display: block;
+	height: 250px;
+	width: 350px;
+}
+
+#Mage{
+	background-image:url('ChampionsMage.png');
+	display: block;
+	height: 250px;
+	width: 350px;
+}
+
+#Bruiser{
+	background-image:url('ChampionsBruiser.png');
+	display: block;
+	height: 250px;
+	width: 350px;
+}
+
+#ADCaster{
+	background-image:url('ChampionsADCaster.png');
+	display: block;
+	height: 250px;
+	width: 350px;
+}
+
+#ADCarry{
+	background-image:url('ChampionsADCaster.png');
+	display: block;
+	height: 250px;
+	width: 350px;
+}
+
+#Support{
+	background-image:url('ChampionsSupport.png');
+	display: block;
+	height: 250px;
+	width: 350px;
+}
+
+
+li.ChampionFloat{
+	float: left;
+	list-style-type: none;
+}
 @media screen and (max-width: 980px) {
 	nav > ul > li {
 		width: 93%;
