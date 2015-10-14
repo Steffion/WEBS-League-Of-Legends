@@ -253,6 +253,76 @@ li.ChampionFloat{
 	list-style-type: none;
 }
 
+.Assasin{
+	height: 300px;
+	width: 450px;
+}
+
+li.AssasinFloat{
+	float: left;
+	list-style-type: none;
+}
+
+.Tank{
+	height: 300px;
+	width: 450px;
+}
+
+li.TankFloat{
+	float: left;
+	list-style-type: none;
+}
+
+.Mage{
+	height: 300px;
+	width: 450px;
+}
+
+li.MageFloat{
+	float: left;
+	list-style-type: none;
+}
+
+.Bruiser{
+	height: 300px;
+	width: 450px;
+}
+
+li.BruiserFloat{
+	float: left;
+	list-style-type: none;
+}
+
+.ADCaster{
+	height: 300px;
+	width: 450px;
+}
+
+li.ADCasterFloat{
+	float: left;
+	list-style-type: none;
+}
+
+.ADCarry{
+	height: 300px;
+	width: 450px;
+}
+
+li.ADCarryFloat{
+	float: left;
+	list-style-type: none;
+}
+
+.Support{
+	height: 300px;
+	width: 450px;
+}
+
+li.SupportFloat{
+	float: left;
+	list-style-type: none;
+}
+
 @media screen and (max-width: 980px) {
 	nav > ul > li {
 		width: 93%;
