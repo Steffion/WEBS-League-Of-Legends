@@ -272,6 +272,7 @@ li.AssasinFloat{
 li.TankFloat{
 	float: left;
 	list-style-type: none;
+	position: relative;
 }
 
 .Mage{
@@ -282,6 +283,7 @@ li.TankFloat{
 li.MageFloat{
 	float: left;
 	list-style-type: none;
+	position: relative;
 }
 
 .Bruiser{
@@ -292,6 +294,7 @@ li.MageFloat{
 li.BruiserFloat{
 	float: left;
 	list-style-type: none;
+	position: relative;
 }
 
 .ADCaster{
@@ -302,6 +305,7 @@ li.BruiserFloat{
 li.ADCasterFloat{
 	float: left;
 	list-style-type: none;
+	position: relative;
 }
 
 .ADCarry{
@@ -322,6 +326,7 @@ li.ADCarryFloat{
 li.SupportFloat{
 	float: left;
 	list-style-type: none;
+	position: relative;
 }
 
 span.TextHover{
