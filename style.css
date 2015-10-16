@@ -5,7 +5,9 @@ body {
 }
 
 body#index {
-	background: url('backgrounds/index.png') no-repeat fixed;
+	background-color: #080908;
+	background-image: url('backgrounds/index.png');
+	background-size: contain;
 }
 
 body#theadc {
