@@ -45,6 +45,11 @@ header {
 	border-radius: 5px 5px 5px 5px;
 }
 
+nav{
+	position:relative;
+	z-index:10;
+}
+
 nav > ul > li {
 	float: left;
 	background-color:#6C6C6C;
@@ -56,6 +61,7 @@ nav > ul > li {
 	position: relative;
 	margin-right: 1%;
 	opacity: 0.9;
+	
 }
 
 li > ul li {
@@ -68,7 +74,8 @@ li > ul li:last-child {
 }
 
 li > ul {
-	display: none;
+	
+	display:none;
 	width: 100%;
 	box-shadow: 3px 3px 6px black;
 	background-color: #6c6c6c;
@@ -77,6 +84,7 @@ li > ul {
 	list-style-type: none;
 	text-align: center;
 	position: absolute;
+
 }
 
 li:hover > ul{
@@ -251,17 +259,22 @@ li.RoleFloat:hover{
 li.ChampionFloat{
 	float: left;
 	list-style-type: none;
+	position: relative;
+	z-index:1;
+	
 }
+
+li.ChampionFloatIndex{
+	float: left;
+	list-style-type: none;
+}
+
+
 
 .Assasin{
 	height: 300px;
 	width: 450px;
 }
-
-li.AssasinFloat{
-	float: left;
-	list-style-type: none;
-	position: relative;
 }
 
 .Tank{
@@ -280,32 +293,14 @@ li.TankFloat{
 	width: 450px;
 }
 
-li.MageFloat{
-	float: left;
-	list-style-type: none;
-	position: relative;
-}
-
 .Bruiser{
 	height: 300px;
 	width: 450px;
 }
 
-li.BruiserFloat{
-	float: left;
-	list-style-type: none;
-	position: relative;
-}
-
 .ADCaster{
 	height: 300px;
 	width: 450px;
-}
-
-li.ADCasterFloat{
-	float: left;
-	list-style-type: none;
-	position: relative;
 }
 
 .ADCarry{
@@ -332,6 +327,8 @@ li.SupportFloat{
 span.TextHover{
 	background: rgba(0,0,0,0.5);
 	color: white;
+	padding:10px;
+	box-sizing:border-box;
 	display: block;
 	position: absolute;
 	width: 100%;
