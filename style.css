@@ -45,6 +45,15 @@ header {
 	border-radius: 5px 5px 5px 5px;
 }
 
+nav {
+	z-index: 999;
+}
+
+section ul{
+	z-index: -1;;
+	
+}
+
 nav > ul > li {
 	float: left;
 	background-color:#6C6C6C;
@@ -262,6 +271,12 @@ li.AssasinFloat{
 	float: left;
 	list-style-type: none;
 	position: relative;
+	display: inline-block;
+	z-index: 1;
+}
+
+li.AssasinFloat:hover span{
+	color: red;
 }
 
 .Tank{
@@ -327,27 +342,21 @@ li.SupportFloat{
 	float: left;
 	list-style-type: none;
 	position: relative;
+	
 }
 
 span.TextHover{
 	background: rgba(0,0,0,0.5);
 	color: white;
-	display: block;
 	position: absolute;
-	width: 100%;
-	height: 100%;
 	left: 0;
 	top: 0;
-	opacity: 0;
 	-webkit-transition: opacity 500ms;
 	-moz-transition: opacity 500ms;
 	-o-transition: opacity 500ms;
 	transition: opacity 500ms;
 }
 
-ul > li:hover span.TextHover {
-  opacity: 1;
-}
 @media screen and (max-width: 980px) {
 	nav > ul > li {
 		width: 93%;
