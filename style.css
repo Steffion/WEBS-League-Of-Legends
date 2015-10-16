@@ -257,12 +257,16 @@ li.RoleFloat:hover{
 	width: 350px;
 }
 
-
 li.ChampionFloat{
 	float: left;
 	list-style-type: none;
 	position: relative;
 	z-index:1;
+}
+
+.ChampionPosition{
+	width: 25%;
+	
 	
 }
 
@@ -273,58 +277,7 @@ li.ChampionFloatIndex{
 
 
 
-.Assasin{
-	height: 300px;
-	width: 450px;
-}
-}
 
-.Tank{
-	height: 300px;
-	width: 450px;
-}
-
-li.TankFloat{
-	float: left;
-	list-style-type: none;
-	position: relative;
-}
-
-.Mage{
-	height: 300px;
-	width: 450px;
-}
-
-.Bruiser{
-	height: 300px;
-	width: 450px;
-}
-
-.ADCaster{
-	height: 300px;
-	width: 450px;
-}
-
-.ADCarry{
-	height: 300px;
-	width: 450px;
-}
-
-li.ADCarryFloat{
-	float: left;
-	list-style-type: none;
-}
-
-.Support{
-	height: 300px;
-	width: 450px;
-}
-
-li.SupportFloat{
-	float: left;
-	list-style-type: none;
-	position: relative;
-}
 
 span.TextHover{
 	background: rgba(0,0,0,0.5);
@@ -333,8 +286,6 @@ span.TextHover{
 	box-sizing:border-box;
 	display: block;
 	position: absolute;
-	width: 100%;
-	height: 100%;
 	left: 0;
 	top: 0;
 	opacity: 0;
