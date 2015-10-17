@@ -373,11 +373,29 @@ span.TextHover{
 		width: 100%;
 	}
 	
-	span.TextHover{
+	li.RolesFloat{
+		float: none;
+		width: 100%;
+	}
+	
+	span.TextHover {
 		width: 100%;
 		font-size: 150%;
 		opacity: 1;
 		overflow: hidden;
 	}
 	
+	.RolesFloat span {
+		width: 100%;
+		font-size: 150%;
+		opacity: 1;
+		overflow: hidden;
+	}
+	
+	li.RolesFloat:hover {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		transition: none;
+	}
 }
