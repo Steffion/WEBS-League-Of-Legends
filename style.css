@@ -8,6 +8,7 @@ body#index {
 	background-color: #080908;
 	background-image: url('backgrounds/index.png');
 	background-size: contain;
+	background-position: center;
 }
 
 body#theadc {
@@ -93,10 +94,17 @@ li:hover > ul{
 	display: block;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	display: block;
 	color: white;
+	padding: 25px 1%;
+}
+
+header a {
+	display: block;
+	color: white;
+	text-decoration: none;
 	padding: 25px 1%;
 }
 
@@ -154,58 +162,54 @@ div.Feeder{
 	opacity: 0.9;
 }
 
-#ADC{
-	background-image:url('RolesADC.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Support{
-	background-image:url('RolesSupport.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Jungler{
-	background-image:url('RolesJungler.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Top{
-	background-image:url('RolesTop.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Mid{
-	background-image:url('RolesMid.png');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Feeder{
-	background-image:url('RolesFeeder.jpg');
-	display: block;
-	height: 240px;
-	width: 1720px;
-}
-
-li.RoleFloat{
-	float:left;
+.RolesFloat {
+	float: left;
 	list-style-type: none;
+	position: relative;
+	z-index: 1;
+	width: 25%;
 }
 
-li.RoleFloat:hover{
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
+.RolesFloat#feeder {
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+.RolesPosition {
+	width: 100%;
+	height: 100%;
+}
+
+li.RolesFloat:hover{
+	-webkit-transform: scale(1.06);
+	-ms-transform: scale(1.06);
+	transform: scale(1.06);
 	transition: 1s ease;
+}
+
+.RolesFloat span {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 10%;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 85%;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
+li:hover span {
+  opacity: 1;
 }
 
 #Assasin{
@@ -272,6 +276,7 @@ li.ChampionFloat{
 
 ul {
 	padding: 0;
+	clear: both;
 }
 
 span.TextHover{
@@ -291,10 +296,6 @@ span.TextHover{
 	-o-transition: opacity 500ms;
 	transition: opacity 500ms;
 	overflow: hidden;
-}
-
-ul > li:hover span.TextHover {
-  opacity: 1;
 }
 
 @media screen and (max-width: 980px) {
