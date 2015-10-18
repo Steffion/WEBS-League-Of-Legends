@@ -48,7 +48,7 @@ header {
 	border-radius: 5px 5px 5px 5px;
 }
 
-nav{
+nav {
 	position:relative;
 	z-index:10;
 }
@@ -186,6 +186,7 @@ li.RolesFloat:hover{
 	-ms-transform: scale(1.06);
 	transform: scale(1.06);
 	transition: 1s ease;
+	z-index: 2;
 }
 
 .RolesFloat span {
