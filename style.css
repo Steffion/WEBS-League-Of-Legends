@@ -114,55 +114,38 @@ header a {
 article {
 	margin-top: 100px;
 	color: white;
+	font-size: 18px;
 	padding: 20px 15%;
 }
 
-div.ADC{
-	font-size: 18px;
-	width: 100%;
-	background: linear-gradient(to right, black , #FFDBB8);
+.role {
 	margin-top: 30%;
+	overflow: hidden;
 	opacity: 0.9;
 }
 
-div.Support{
-	font-size: 18px;
-	width: 100%;
+.adc {
+	background: linear-gradient(to right, black , #FFDBB8);
+}
+
+.support {
 	background: linear-gradient(to right, black , #94E9D8);
-	margin-top: 30%;
-	opacity: 0.9;	
 }
 
-div.Jungler{
-	font-size: 18px;
-	width: 100%;
+.jungler {
 	background: linear-gradient(to right, #002E0F , #FFDBB8);
-	margin-top: 30%;
-	opacity: 0.9;	
 }
 
-div.SoloTop{
-	font-size: 18px;
-	width: 100%;
+.solotop {
 	background: linear-gradient(to right, black , #FFDBB8);
-	margin-top: 30%;
-	opacity: 0.9;	
 }
 
-div.SoloMid{
-	font-size: 18px;
-	width: 100%;
+.solomid {
 	background: linear-gradient(to right, #391439 , #FFDBB8);
-	margin-top: 32%;
-	opacity: 0.9;
 }
 
-div.Feeder{
-	font-size: 18px;
-	width: 100%;
+.feeder {
 	background: linear-gradient(to right, black, #FFDBB8);
-	margin-top: 30%;
-	opacity: 0.9;
 }
 
 .RolesFloat {
