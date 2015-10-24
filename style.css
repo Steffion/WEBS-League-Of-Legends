@@ -48,6 +48,13 @@ header {
 	border-radius: 5px 5px 5px 5px;
 }
 
+header a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 25px 1%;
+}
+
 nav {
 	position:relative;
 	z-index:10;
@@ -66,21 +73,11 @@ nav > ul > li {
 	opacity: 0.9;
 }
 
-nav > ul > li:first-child {
+nav ul li:first-child {
 	margin-left: 1%;
 }
 
-li > ul li {
-	border-bottom: 1px solid #333;
-	
-}
-
-li > ul li:last-child {
-	border-bottom: 0;
-}
-
-li > ul {
-	
+nav li ul {
 	display:none;
 	width: 100%;
 	box-shadow: 3px 3px 6px black;
@@ -90,24 +87,25 @@ li > ul {
 	list-style-type: none;
 	text-align: center;
 	position: absolute;
-
 }
 
-li:hover > ul{
+nav li:hover ul {
 	display: block;
+}
+
+nav li ul li {
+	border-bottom: 1px solid #333;
+	
+}
+
+nav li ul li:last-child {
+	border-bottom: 0;
 }
 
 nav a {
 	text-decoration: none;
 	display: block;
 	color: white;
-	padding: 25px 1%;
-}
-
-header a {
-	display: block;
-	color: white;
-	text-decoration: none;
 	padding: 25px 1%;
 }
 
@@ -148,26 +146,37 @@ article {
 	background: linear-gradient(to right, black, #FFDBB8);
 }
 
-.RolesFloat {
+.float {
 	float: left;
 	list-style-type: none;
 	position: relative;
 	z-index: 1;
+}
+
+.float.roles {
 	width: 20%;
 }
 
-.RolesFloat#feeder {
+.float.main.champions {
+	width: 14%;
+}
+
+.float.champions {
+	width: 25%;
+}
+
+.float#feeder {
 	width: 100%;
 	z-index: 1;
 	position: relative;
 }
 
-.RolesPosition {
+.float .position {
 	width: 100%;
 	height: 100%;
 }
 
-li.RolesFloat:hover{
+.float.main:hover {
 	-webkit-transform: scale(1.06);
 	-ms-transform: scale(1.06);
 	transform: scale(1.06);
@@ -175,98 +184,12 @@ li.RolesFloat:hover{
 	z-index: 2;
 }
 
-.RolesFloat span {
-	background: rgba(0,0,0,0.5);
-	color: white;
-	padding: 10px;
-	box-sizing: border-box;
-	display: block;
-	position: absolute;
-	top: 0;
+.float.main span {
 	padding-top: 10%;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	font-size: 85%;
-	opacity: 0;
-	-webkit-transition: opacity 500ms;
-	-moz-transition: opacity 500ms;
-	-o-transition: opacity 500ms;
-	transition: opacity 500ms;
+	overflow: show;
 }
 
-li:hover span {
-  opacity: 1;
-}
-
-#Assasin{
-	background-image:url('ChampionsAssasin.png');
-	display: block;
-	height: 250px;
-	width: 350px;
-}
-
-#Tank{
-	background-image:url('ChampionsTank.png');
-	display: block;
-	height: 250px;
-	width: 350px;
-}
-
-#Mage{
-	background-image:url('ChampionsMage.png');
-	display: block;
-	height: 250px;
-	width: 350px;
-}
-
-#Bruiser{
-	background-image:url('ChampionsBruiser.png');
-	display: block;
-	height: 250px;
-	width: 350px;
-}
-
-#ADCaster{
-	background-image:url('ChampionsADCaster.png');
-	display: block;
-	height: 250px;
-	width: 350px;
-}
-
-#ADCarry{
-	background-image:url('ChampionsADCaster.png');
-	display: block;
-	height: 250px;
-	width: 350px;
-}
-
-#SupportChampion {
-	background-image:url('ChampionsSupport.png');
-	display: block;
-	height: 250px;
-	width: 350px;
-}
-
-li.ChampionFloat{
-	float: left;
-	list-style-type: none;
-	position: relative;
-	z-index:1;
-	width: 25%;
-}
-
-.ChampionPosition{
-	width: 100%;
-	height: 100%;
-}
-
-ul {
-	padding: 0;
-	clear: both;
-}
-
-span.TextHover{
+.float span {
 	background: rgba(0,0,0,0.5);
 	color: white;
 	padding: 10px;
@@ -284,6 +207,15 @@ span.TextHover{
 	-o-transition: opacity 500ms;
 	transition: opacity 500ms;
 	overflow: hidden;
+}
+
+.float:hover span {
+	opacity: 1;
+}
+
+ul {
+	padding: 0;
+	clear: both;
 }
 
 @media screen and (max-width: 980px) {
