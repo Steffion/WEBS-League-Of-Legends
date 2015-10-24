@@ -8,6 +8,7 @@ body#index {
 	background-color: #080908;
 	background-image: url('backgrounds/index.png');
 	background-size: contain;
+	background-position: center;
 }
 
 body#theadc {
@@ -47,7 +48,7 @@ header {
 	border-radius: 5px 5px 5px 5px;
 }
 
-nav{
+nav {
 	position:relative;
 	z-index:10;
 }
@@ -63,7 +64,10 @@ nav > ul > li {
 	position: relative;
 	margin-right: 1%;
 	opacity: 0.9;
-	
+}
+
+nav > ul > li:first-child {
+	margin-left: 1%;
 }
 
 li > ul li {
@@ -93,119 +97,106 @@ li:hover > ul{
 	display: block;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	display: block;
 	color: white;
 	padding: 25px 1%;
 }
 
+header a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 25px 1%;
+}
+
 article {
 	margin-top: 100px;
 	color: white;
+	font-size: 18px;
 	padding: 20px 15%;
 }
 
-div.ADC{
-	font-size: 18px;
-	width: 100%;
-	background: linear-gradient(to right, black , #FFDBB8);
+.role {
 	margin-top: 30%;
+	overflow: hidden;
 	opacity: 0.9;
 }
 
-div.Support{
-	font-size: 18px;
-	width: 100%;
+.adc {
+	background: linear-gradient(to right, black , #FFDBB8);
+}
+
+.support {
 	background: linear-gradient(to right, black , #94E9D8);
-	margin-top: 30%;
-	opacity: 0.9;	
 }
 
-div.Jungler{
-	font-size: 18px;
-	width: 100%;
+.jungler {
 	background: linear-gradient(to right, #002E0F , #FFDBB8);
-	margin-top: 30%;
-	opacity: 0.9;	
 }
 
-div.SoloTop{
-	font-size: 18px;
-	width: 100%;
+.solotop {
 	background: linear-gradient(to right, black , #FFDBB8);
-	margin-top: 30%;
-	opacity: 0.9;	
 }
 
-div.SoloMid{
-	font-size: 18px;
-	width: 100%;
+.solomid {
 	background: linear-gradient(to right, #391439 , #FFDBB8);
-	margin-top: 32%;
-	opacity: 0.9;
 }
 
-div.Feeder{
-	font-size: 18px;
-	width: 100%;
+.feeder {
 	background: linear-gradient(to right, black, #FFDBB8);
-	margin-top: 30%;
-	opacity: 0.9;
 }
 
-#ADC{
-	background-image:url('RolesADC.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Support{
-	background-image:url('RolesSupport.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Jungler{
-	background-image:url('RolesJungler.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Top{
-	background-image:url('RolesTop.jpg');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Mid{
-	background-image:url('RolesMid.png');
-	display: block;
-	height: 240px;
-	width: 350px;
-}
-
-#Feeder{
-	background-image:url('RolesFeeder.jpg');
-	display: block;
-	height: 240px;
-	width: 1720px;
-}
-
-li.RoleFloat{
-	float:left;
+.RolesFloat {
+	float: left;
 	list-style-type: none;
+	position: relative;
+	z-index: 1;
+	width: 20%;
 }
 
-li.RoleFloat:hover{
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
+.RolesFloat#feeder {
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+.RolesPosition {
+	width: 100%;
+	height: 100%;
+}
+
+li.RolesFloat:hover{
+	-webkit-transform: scale(1.06);
+	-ms-transform: scale(1.06);
+	transform: scale(1.06);
 	transition: 1s ease;
+	z-index: 2;
+}
+
+.RolesFloat span {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	top: 0;
+	padding-top: 10%;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 85%;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
+li:hover span {
+  opacity: 1;
 }
 
 #Assasin{
@@ -272,6 +263,7 @@ li.ChampionFloat{
 
 ul {
 	padding: 0;
+	clear: both;
 }
 
 span.TextHover{
@@ -293,10 +285,6 @@ span.TextHover{
 	overflow: hidden;
 }
 
-ul > li:hover span.TextHover {
-  opacity: 1;
-}
-
 @media screen and (max-width: 980px) {
 	nav > ul > li {
 		width: 94%;
@@ -306,6 +294,9 @@ ul > li:hover span.TextHover {
 		margin-bottom: 10px;
 	}
 	
+	nav > ul > li:first-child {
+		margin-left: 3%;
+	}
 	
 	nav > ul > li:hover {
 		background-color: #3a3a3a;
@@ -372,11 +363,29 @@ ul > li:hover span.TextHover {
 		width: 100%;
 	}
 	
-	span.TextHover{
+	li.RolesFloat{
+		float: none;
+		width: 100%;
+	}
+	
+	span.TextHover {
 		width: 100%;
 		font-size: 150%;
 		opacity: 1;
 		overflow: hidden;
 	}
 	
+	.RolesFloat span {
+		width: 100%;
+		font-size: 150%;
+		opacity: 1;
+		overflow: hidden;
+	}
+	
+	li.RolesFloat:hover {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		transition: none;
+	}
 }
