@@ -187,6 +187,7 @@ article {
 .float.main span {
 	padding-top: 10%;
 	overflow: show;
+	text-align: center;
 }
 
 .float span {
@@ -227,15 +228,19 @@ ul {
 		margin-bottom: 10px;
 	}
 	
-	nav > ul > li:first-child {
+	nav ul li:first-child {
 		margin-left: 3%;
 	}
 	
-	nav > ul > li:hover {
+	nav ul ul li:first-child {
+		margin-left: 0;
+	}
+	
+	nav ul li:hover {
 		background-color: #3a3a3a;
 	}
 	
-	li > ul {
+	nav li ul {
 		position: relative;
 		margin-top: 10px;
 		z-index: 1;
@@ -291,31 +296,34 @@ ul {
 		background-image: url('..');
 	}
 	
-	li.ChampionFloat{
+	.float {
 		float: none;
 		width: 100%;
 	}
 	
-	li.RolesFloat{
+	.float.roles {
 		float: none;
 		width: 100%;
 	}
 	
-	span.TextHover {
+	.float.champions {
+		float: none;
+		width: 100%;
+	}
+	
+	.float.champions.main {
+		float: none;
+		width: 100%;
+	}
+	
+	.float span {
 		width: 100%;
 		font-size: 150%;
 		opacity: 1;
 		overflow: hidden;
 	}
 	
-	.RolesFloat span {
-		width: 100%;
-		font-size: 150%;
-		opacity: 1;
-		overflow: hidden;
-	}
-	
-	li.RolesFloat:hover {
+	.float.main:hover {
 		-webkit-transform: scale(1);
 		-ms-transform: scale(1);
 		transform: scale(1);
