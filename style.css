@@ -165,6 +165,10 @@ article {
 	width: 25%;
 }
 
+.float.maps{
+	width: 25%;
+}
+
 .float#feeder {
 	width: 100%;
 	z-index: 1;
