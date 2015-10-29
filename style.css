@@ -56,8 +56,8 @@ header a {
 }
 
 nav {
-	position:relative;
-	z-index:10;
+	position: relative;
+	z-index: 10;
 }
 
 nav > ul > li {
@@ -67,14 +67,14 @@ nav > ul > li {
 	border-radius: 5px;
 	list-style-type: none;
 	text-align: center;
-	width: 10%;
+	width: 9%;
 	position: relative;
-	margin-right: 1%;
+	margin-right: 0.5%;
 	opacity: 0.9;
 }
 
 nav ul li:first-child {
-	margin-left: 1%;
+	margin-left: 2.5%;
 }
 
 nav li ul {
