@@ -223,6 +223,21 @@ ul {
 	clear: both;
 }
 
+form {
+	position: relative;
+}
+
+form .text {
+	position: absolute;
+	left: 200px;
+}
+
+.radio {
+	position: absolute;
+	left: 200px;
+	top: 118px;
+}
+
 @media screen and (max-width: 980px) {
 	nav > ul > li {
 		width: 94%;
