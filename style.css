@@ -169,6 +169,10 @@ article {
 	width: 25%;
 }
 
+.float.lcs{
+	width: 20%;
+}
+
 .float#feeder {
 	width: 100%;
 	z-index: 1;
