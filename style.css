@@ -186,6 +186,10 @@ footer {
 	width: 20%;
 }
 
+.float.builds{
+	width: 50%;
+}
+
 .float#feeder {
 	width: 100%;
 	z-index: 1;
