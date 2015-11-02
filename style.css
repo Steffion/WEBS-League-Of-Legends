@@ -45,7 +45,10 @@ header {
 	text-align: center;
 	background-color: #5C5C5C;
 	box-shadow: 3px 3px 6px black;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
+	
 }
 
 header a {
@@ -64,6 +67,8 @@ nav > ul > li {
 	float: left;
 	background-color:#6C6C6C;
 	box-shadow: 3px 3px 6px black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	border-radius: 5px;
 	list-style-type: none;
 	text-align: center;
@@ -83,6 +88,8 @@ nav li ul {
 	box-shadow: 3px 3px 6px black;
 	background-color: #6c6c6c;
 	padding: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	border-radius: 5px;
 	list-style-type: none;
 	text-align: center;
@@ -205,6 +212,9 @@ footer {
 	-webkit-transform: scale(1.06);
 	-ms-transform: scale(1.06);
 	transform: scale(1.06);
+	-webkit-transition: 1s ease;
+	-moz-transition: 1s ease;
+	-o-transition: 1s ease;
 	transition: 1s ease;
 	z-index: 2;
 }
@@ -378,6 +388,8 @@ form .text {
 		-webkit-transform: scale(1);
 		-ms-transform: scale(1);
 		transform: scale(1);
+		-moz-transition: none;
+		-o-transition: none;
 		transition: none;
 	}
 	
@@ -388,7 +400,7 @@ form .text {
 	
 	.radio {
 		position: absolute;
-		left: 390px;
+		left: 60%;
 		top: 250px;
 	}
 }
