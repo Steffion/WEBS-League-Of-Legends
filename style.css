@@ -380,4 +380,15 @@ form .text {
 		transform: scale(1);
 		transition: none;
 	}
+	
+	form .text {
+		right: 10px;
+		left: 60%;
+	}
+	
+	.radio {
+		position: absolute;
+		left: 390px;
+		top: 250px;
+	}
 }
