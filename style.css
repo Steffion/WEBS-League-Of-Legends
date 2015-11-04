@@ -221,7 +221,7 @@ footer {
 
 .float.main span {
 	padding-top: 10%;
-	overflow: show;
+	overflow: visible;
 	text-align: center;
 	font-size: 32px;
 	font-weight: bold;
